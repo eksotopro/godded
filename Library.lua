@@ -3984,6 +3984,5 @@ function initLibrary()
 
     return library
 end
-local library = initLibrary()
 --Credits to yun owners :kiss:
 print("Ui Library by Yun.")
