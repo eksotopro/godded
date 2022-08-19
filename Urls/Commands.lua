@@ -3,7 +3,7 @@ if cht:match(".reset") then
 game.Players.LocalPlayer.Character.Humanoid:Destroy()
     end
 end)
-LocalPlaye.Chatted:connect(function(cht)
+LocalPlayer.Chatted:connect(function(cht)
 if cht:match(".jobid") then
 setclipboard(game.JobId)
     end
