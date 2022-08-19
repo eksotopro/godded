@@ -1,3 +1,4 @@
+local LocalPlayer = game.Players.LocalPlayer
 LocalPlayer.Chatted:connect(function(cht)
 if cht:match(".reset") then
 game.Players.LocalPlayer.Character.Humanoid:Destroy()
