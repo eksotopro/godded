@@ -1,1 +1,1 @@
-local Emoji = "😁"
+"😁"
