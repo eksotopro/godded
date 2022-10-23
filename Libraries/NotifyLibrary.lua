@@ -1,3 +1,4 @@
+--// AkaliNotif
 local TweenService = game:GetService("TweenService");
 local RunService = game:GetService("RunService");
 local TextService = game:GetService("TextService");
@@ -5,7 +6,7 @@ local TextService = game:GetService("TextService");
 local Player = game:GetService("Players").LocalPlayer;
 
 local NotifGui = Instance.new("ScreenGui");
-NotifGui.Name = "AkaliNotif";
+NotifGui.Name = "ZAPPED_NOTIFICATIONS";
 NotifGui.Parent = RunService:IsStudio() and Player.PlayerGui or game:GetService("CoreGui");
 
 local Container = Instance.new("Frame");
